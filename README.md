@@ -1,4 +1,4 @@
-# 🛍️ Vitrine de Produtos com Carrinho de Compras
+# 🛍️ Vitrine de livros
 
 Este projeto é uma vitrine de produtos desenvolvida com HTML, CSS e JavaScript, que permite ao usuário visualizar produtos, adicioná-los ao carrinho, ajustar quantidades e ver o total da compra em tempo real.
 
