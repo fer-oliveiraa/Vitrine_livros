@@ -28,7 +28,7 @@ Este projeto é uma vitrine de produtos desenvolvida com HTML, CSS e JavaScript,
 ## 🛠️ Tecnologias Utilizadas
 
 - HTML5
-- CSS3 (Flexbox)
+- CSS (Flexbox)
 - JavaScript (puro, sem frameworks)
 
 ---
