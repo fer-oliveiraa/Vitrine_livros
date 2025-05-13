@@ -20,10 +20,10 @@ Este projeto é uma vitrine de produtos desenvolvida com HTML, CSS e JavaScript,
 ## 📁 Estrutura de Arquivos
 
 /vitrine-carrinho/
-├── index.html # Estrutura da página
-├── style.css # Estilos visuais
-├── script.js # Lógica do carrinho
-└── README.md # Documentação do projeto
+├── index.html 
+├── style.css 
+├── script.js 
+└── README.md
 
 ## 🛠️ Tecnologias Utilizadas
 
