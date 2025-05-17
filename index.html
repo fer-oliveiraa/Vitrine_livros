@@ -3,49 +3,63 @@
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
-  <title>Vitrine de Produtos</title>
+  <title>Vitrine de Livros</title>
   <link rel="stylesheet" href="style.css">
 </head>
 <body>
   <main>
-    <h1>Vitrine de Produtos</h1>
+    <h1>Vitrine de Livros</h1>
     <div class="product-list">
       
       <div class="product" data-id="1">
         <img src="https://tinyurl.com/2asjxem2" alt="Produto 1">
-        <h3>Box Harry Potter - Série Completa</h3>
+        <h3>Harry Potter - Coleção completa</h3>
         <p class="price">R$ 499.90</p>
-        <button class="add-to-cart">Adicionar</button>
+        <div class="button-container">
+          <div class="button-container">
+          <button class="add-to-cart">Adicionar</button>
+        </div>
+        </div>
       </div>
       <div class="product" data-id="2">
         <img src="https://tinyurl.com/569nt5rr" alt="Produto 2">
-        <h3>Percy Jackson e os Olimpianos - Vol 1 ao 5</h3>
+        <h3>Percy Jackson - Vol 1 ao 5</h3>
         <p class="price">R$ 251.99</p>
-        <button class="add-to-cart">Adicionar</button>
+        <div class="button-container">
+          <button class="add-to-cart">Adicionar</button>
+        </div>
       </div>
       <div class="product" data-id="3">
         <img src="https://tinyurl.com/3khkt53w" alt="Produto 3">
-        <h3>Saga Jogos Vorazes: Coleção com quatro livros (com marcadores)</h3>
+        <h3>Jogos Vorazes - Vol 1 ao 4</h3>
         <p class="price">R$ 282.94</p>
-        <button class="add-to-cart">Adicionar</button>
+        <div class="button-container">
+          <button class="add-to-cart">Adicionar</button>
+        </div>
       </div>
       <div class="product" data-id="4">
         <img src="https://tinyurl.com/2pbbcbdc" alt="Produto 4">
-        <h3>Box Trilogia O Senhor dos Anéis</h3>
+        <h3>O Senhor dos Anéis - Vol 1 ao 3</h3>
         <p class="price">R$ 137.09</p>
-        <button class="add-to-cart">Adicionar</button>
+        <div class="button-container">
+          <button class="add-to-cart">Adicionar</button>
+        </div>
       </div>
       <div class="product" data-id="5">
         <img src="data:image/jpeg;base64,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" alt="Produto 5">
-        <h3>Coleção Especial Sherlock Holmes - Box com 6 livros </h3>
+        <h3>Sherlock Holmes - Vol 1 ao 6</h3>
         <p class="price">R$ 112.75</p>
-        <button class="add-to-cart">Adicionar</button>
+        <div class="button-container">
+          <button class="add-to-cart">Adicionar</button>
+        </div>
       </div>
       <div class="product" data-id="6">
         <img src="https://tinyurl.com/42dvytk9" alt="Produto 6">
         <h3>As Crônicas de Nárnia - Coleção completa</h3>
         <p class="price">R$ 211.91</p>
-        <button class="add-to-cart">Adicionar</button>
+        <div class="button-container">
+          <button class="add-to-cart">Adicionar</button>
+        </div>
       </div>
     </div>
   </main>
